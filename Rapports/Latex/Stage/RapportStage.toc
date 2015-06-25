@@ -1,0 +1,39 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {section}{\numberline {2}\'{E}tat de l'art}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Contexte}{2}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Anorexie mentale}{2}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Sortie de corps}{3}{subsubsection.2.1.2}
+\contentsline {paragraph}{Sortie de corps en r\IeC {\'e}alit\IeC {\'e} virtuelle}{3}{section*.3}
+\contentsline {paragraph}{Modification de la perception du corps}{4}{section*.4}
+\contentsline {subsubsection}{\numberline {2.1.3}Bilan}{5}{subsubsection.2.1.3}
+\contentsline {subsection}{\numberline {2.2}Avatar et environnement 3D}{5}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Apparence de l'avatar}{6}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Perception dans un environnement virtuel}{6}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.3}Bilan}{6}{subsubsection.2.2.3}
+\contentsline {subsection}{\numberline {2.3}Modification d'un corps virtuel}{6}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Shape Interpolation}{6}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}\emph {Morphing 3D}}{7}{subsubsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3}Mod\IeC {\'e}lisation param\IeC {\'e}trique}{7}{subsubsection.2.3.3}
+\contentsline {subsubsection}{\numberline {2.3.4}Bilan}{7}{subsubsection.2.3.4}
+\contentsline {subsection}{\numberline {2.4}Capture de mouvement}{8}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}Syst\IeC {\`e}me m\IeC {\'e}canique}{8}{subsubsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.2}Syst\IeC {\`e}me magn\IeC {\'e}tique}{9}{subsubsection.2.4.2}
+\contentsline {paragraph}{\emph {Razer Hydra}}{9}{section*.5}
+\contentsline {subsubsection}{\numberline {2.4.3}Syst\IeC {\`e}me optique}{9}{subsubsection.2.4.3}
+\contentsline {subsubsection}{\numberline {2.4.4}Bilan}{11}{subsubsection.2.4.4}
+\contentsline {subsection}{\numberline {2.5}Synth\IeC {\`e}se}{11}{subsection.2.5}
+\contentsline {section}{\numberline {3}Proposition}{13}{section.3}
+\contentsline {section}{\numberline {4}R\'{e}alisation}{16}{section.4}
+\contentsline {subsection}{\numberline {4.1}Acquisition des mouvements}{16}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Avatars}{17}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Cr\IeC {\'e}ation et choix des mod\IeC {\`e}les}{17}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Modification de l'avatar}{19}{subsubsection.4.2.2}
+\contentsline {section}{\numberline {5}M\IeC {\'e}thodes d'\IeC {\'e}valuation}{20}{section.5}
+\contentsline {subsection}{\numberline {5.1}Localisation dans l'espace}{21}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Perception de la largeur du corps}{21}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Questionnaire}{21}{subsection.5.3}
+\contentsline {section}{\numberline {6}Conclusion et Perspectives}{24}{section.6}
+\contentsline {section}{\numberline {A}Questionnaires }{28}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Questionnaire 1er et 2\IeC {\`e}me conditions }{28}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Questionnaires 3\IeC {\`e}me et 4\IeC {\`e}me conditions }{29}{subsection.A.2}
+\contentsline {subsection}{\numberline {A.3}Questionnaire final }{30}{subsection.A.3}

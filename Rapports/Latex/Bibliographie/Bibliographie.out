@@ -1,0 +1,21 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Contexte}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Anorexie mentale}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Sortie de corps}{section.2}% 4
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Sortie de corps en r\351alit\351 virtuelle}{subsection.2.2}% 5
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Modification de la perception du corps}{subsection.2.2}% 6
+\BOOKMARK [2][-]{subsection.2.3}{Bilan}{section.2}% 7
+\BOOKMARK [1][-]{section.3}{Modification d'un corps virtuel}{}% 8
+\BOOKMARK [2][-]{subsection.3.1}{Shape Interpolation}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.2}{Morphing 3D}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.3}{Bilan}{section.3}% 11
+\BOOKMARK [1][-]{section.4}{Capture de mouvement}{}% 12
+\BOOKMARK [2][-]{subsection.4.1}{Syst\350me m\351canique}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.2}{Syst\350me magn\351tique}{section.4}% 14
+\BOOKMARK [2][-]{subsection.4.3}{Syst\350me optique}{section.4}% 15
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Syst\350me avec marqueurs}{subsection.4.3}% 16
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Kinect}{subsection.4.3}% 17
+\BOOKMARK [3][-]{subsubsection.4.3.3}{Performances}{subsection.4.3}% 18
+\BOOKMARK [2][-]{subsection.4.4}{Bilan}{section.4}% 19
+\BOOKMARK [1][-]{section.5}{Conclusion}{}% 20
+\BOOKMARK [1][-]{section.6}{Ouverture sur le stage}{}% 21

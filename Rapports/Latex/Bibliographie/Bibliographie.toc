@@ -1,0 +1,21 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {section}{\numberline {2}Contexte}{1}{section.2}
+\contentsline {subsection}{\numberline {2.1}Anorexie mentale}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Sortie de corps}{2}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Sortie de corps en r\IeC {\'e}alit\IeC {\'e} virtuelle}{3}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Modification de la perception du corps}{5}{subsubsection.2.2.2}
+\contentsline {subsection}{\numberline {2.3}Bilan}{5}{subsection.2.3}
+\contentsline {section}{\numberline {3}Modification d'un corps virtuel}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}Shape Interpolation}{5}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}\emph {Morphing 3D}}{6}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Bilan}{7}{subsection.3.3}
+\contentsline {section}{\numberline {4}Capture de mouvement}{7}{section.4}
+\contentsline {subsection}{\numberline {4.1}Syst\IeC {\`e}me m\IeC {\'e}canique}{7}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Syst\IeC {\`e}me magn\IeC {\'e}tique}{8}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Syst\IeC {\`e}me optique}{8}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Syst\IeC {\`e}me avec marqueurs}{8}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}\emph {Kinect}}{9}{subsubsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3}Performances}{9}{subsubsection.4.3.3}
+\contentsline {subsection}{\numberline {4.4}Bilan}{9}{subsection.4.4}
+\contentsline {section}{\numberline {5}Conclusion}{10}{section.5}
+\contentsline {section}{\numberline {6}Ouverture sur le stage}{11}{section.6}

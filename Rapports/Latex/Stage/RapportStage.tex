@@ -1,0 +1,240 @@
+\documentclass[11pt]{article}
+\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{comment}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{pdfpages}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+%numeroter les pages
+\pagestyle{plain}
+
+\renewcommand{\refname}{Références}
+\renewcommand{\contentsname}{Table des matières}
+\begin{document}
+
+\begin{titlepage}
+
+\begin{center}
+
+% Upper part of the page
+
+ 
+
+\includegraphics[width=0.8\textwidth]{./header}\\[1cm]
+\textsc{\Large Stage Master Recherche}
+\vspace{1cm}
+
+\includegraphics[width=0.09\textwidth]{./logo_ENIB}
+\includegraphics[width=0.1\textwidth]{./cerv}
+\includegraphics[width=0.1\textwidth]{./CHRU-Brest}
+%\includegraphics[width=0.1\textwidth]{./ens-Rennes}
+%\includegraphics[width=0.09\textwidth]{./esir}
+%\includegraphics[width=0.09\textwidth]{./enssat} 
+%\includegraphics[width=0.09\textwidth]{./insa-rennes}
+%\includegraphics[width=0.09\textwidth]{./rennes1}
+%\includegraphics[width=0.09\textwidth]{./supelec}
+%\includegraphics[width=0.09\textwidth]{./logoUbs}
+\includegraphics[width=0.09\textwidth]{./UBO}
+\includegraphics[width=0.09\textwidth]{./logo-labsticc}
+%\includegraphics[width=0.09\textwidth]{./tel-br}
+
+
+  
+\vspace{1cm} 
+\textsc{\Large Rapport de stage }\\[0.5cm]
+
+
+% The title of your report
+\HRule \\[0.4cm]
+{ \Large \bfseries Illusion de sortie de corps en réalité virtuelle pour \\l'anorexie mentale }\\[0.4cm]
+
+\HRule \\[1.5cm]
+% The domain of your research 
+%\textbf{KEEP  WITHIN THIS LIST (see model.tex) ONE OR TWO DOMAIN(S) THAT CORRESPOND(S) TO YOUR INTERNSHIP - COMMENT OR REMOVE ALL THE OTHER ONES -}
+\begin{flushleft}
+\textbf{Domaine : Human-Computer Interaction - Emerging Technologies}
+\end{flushleft}
+
+\begin{comment}
+Technology for Human Learning 
+Artificial Intelligence 
+Computer Arithmetic
+Hardware Architecture
+Automatic Control Engineering
+Bioinformatics 
+Biotechnology
+Computational Complexity 
+Computational Engineering, Finance, and Science
+Computational Geometry 
+Computation and Language 
+Cryptography and Security 
+Computer Vision and Pattern Recognition
+Computers and Society 
+Databases 
+Distributed, Parallel, and Cluster Computing 
+Digital Libraries
+Discrete Mathematics 
+Data Structures and Algorithms 
+Embedded Systems 
+Emerging Technologies 
+Formal Languages and Automata Theory 
+General Literature 
+Graphics 
+Computer Science and Game Theory 
+Human-Computer Interaction 
+Computer Aided Engineering 
+Medical Imaging 
+Information Retrieval 
+Information Theory 
+Ubiquitous Computing 
+Machine Learning
+Logic in Computer Science 
+Multiagent Systems 
+Mobile Computing
+Multimedia
+Modeling and Simulation 
+Mathematical Software 
+Numerical Analysis 
+Neural and Evolutionary Computing 
+Networking and Internet Architecture 
+Operating Systems 
+Performance 
+Programming Languages 
+Robotics 
+Operations Research
+Symbolic Computation 
+Sound
+Software Engineering 
+Social and Information Networks 
+Systems and Control 
+Image Processing 
+Signal and Image Processing 
+Document and Text Processing
+Web
+\end{comment}
+%
+% Author and supervisor(s)
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Auteur:}\\
+Guillaume  \textsc{Biannic}
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+\begin{flushright} \large
+\emph{Superviseurs:} \\
+%
+% name(s) of your supervisor(s)
+Cédric \textsc{Buche} \\ %of your first supervisor
+Nathalie \textsc{Le Bigot} \\ %of your second supervisor  if any
+% Name of your team
+IHSEV - Lab-STICC
+\end{flushright}
+\end{minipage}
+
+\vfill
+
+\begin{comment}
+% INCLUDE HERE THE LOGO OF YOUR INSTITUTION
+\textbf{INSERT ``\%'' IN FRONT OF ALL THE LOGO YOU DO NOT NEED - A SINGLE ONE SHOULD REMAIN AT THE BOTTOM OF THIS PAGE}
+\begin{flushleft}
+\includegraphics[width=0.09\textwidth]{./supelec}\\
+\end{flushleft}
+\begin{flushleft}
+\includegraphics[width=0.09\textwidth]{./logoUbs}
+\end{flushleft}
+\begin{flushleft}
+\includegraphics[width=0.09\textwidth]{./UBO}
+\end{flushleft}
+\begin{flushleft}
+\includegraphics[width=0.09\textwidth]{./tel-br}
+\end{flushleft}
+\begin{flushleft}
+\includegraphics[width=0.09\textwidth]{./rennes1}
+\end{flushleft}
+\begin{flushleft}
+\includegraphics[width=0.09\textwidth]{./insa-rennes}
+\end{flushleft}
+\begin{flushleft}
+\includegraphics[width=0.09\textwidth]{./esir}
+\end{flushleft}
+\begin{flushleft}
+\includegraphics[width=0.09\textwidth]{./enssat}
+\end{flushleft}
+\begin{flushleft}
+\includegraphics[width=0.09\textwidth]{./ENS-Rennes}
+\end{flushleft}
+\end{comment}
+\begin{flushleft}
+\includegraphics[width=0.09\textwidth]{./logo_ENIB}
+\end{flushleft}
+\end{center}
+\end{titlepage}
+
+
+
+%************************************************************%
+
+\thispagestyle{empty}
+\section*{Abstract}
+Les patients souffrant d'anorexie mentale ont une représentation faussée de leurs corps et surestiment leurs poids. Pour pouvoir soigner efficacement cette maladie, il faut aider le patient à prendre conscience de l'apparence de son corps. La réalité virtuelle a déjà permis d'aider les personnes atteintes de trouble du comportement alimentaire à améliorer l'image de leurs corps et pourrait donc aider efficacement ces patients. La sortie de corps est une illusion qui a déjà été réalisée en réalité virtuelle. Elle permet de faire croire à une personne que le corps virtuel qu'elle observe est son propre corps. Cette illusion peut être réalisée grâce à une corrélation visuotactile, lien entre ce qui est ressenti dans le réel et ce qui est vu dans le virtuel, et la corrélation visuomotrice, lien entre les mouvements réalisés dans le réel et ce qui est vu dans le virtuel. Le but de ce projet est de mettre au point une méthode et une application utilisable par les psychiatres pour aider au soin des personnes atteintes d'anorexie mentale. Nous nous sommes appuyés sur les travaux traitants de la sortie de corps et de la modification de la perception du corps, pour proposer une application basée sur l'illusion de sortie de corps et la modification de modèles d'humain virtuel pour répondre à notre problématique tout en respectant les contraintes liées à notre contexte applicatif. Nous avons également défini une méthode pour évaluer le travail réalisé.
+
+
+%Cette illusion peut être réalisée à partir de stimulation tactile mais elle pourrait peut-être également être créée si le corps virtuel reproduit les mouvements de l'utilisateur. Le but de ce projet est de produire la sensation de sortir de corps puis de modifier la silhouette du corps virtuel : initialement le corps virtuel est telle que le patient se perçoit et se transforme jusqu'à sa silhouette réelle. Pour cela il faut donc pouvoir modifier l'apparence du corps virtuel avec une technique comme la \emph{shape interpolation}. Il faut également être en mesure de capturer les mouvements réalisés par le patient pendant la sortie de corps pour bouger le corps virtuel avec le minimum de délai afin de ne pas briser l'illusion.
+%\end{abstract}
+
+
+% compile twice to get the table of contents
+\tableofcontents
+\thispagestyle{empty}
+\setcounter{page}{0} 
+\newpage
+
+
+%*****************************************************************%
+\section{Introduction}
+
+Ce rapport va vous décrire le stage de master recherche informatique que j'ai réalisé au CERV (Centre Européen de Réalité Virtuelle) au sein de l'équipe IHSEV. Ce projet est réalisé en collaboration avec le département de psychologie de l'UBO et le CHU de Brest. Le but est de mettre au point une méthode et une application qui pourront, à terme, être utilisées par les psychiatres pour aider au soin des personnes atteintes d'anorexie mentale.\\
+
+L'anorexie mentale est une maladie grave qui touche principalement les femmes à l'adolescence. Les personnes atteintes de cette maladie se voient plus grosses qu’elles ne le sont même si elles ont atteints un faible poids corporel ce qui interfère avec le traitement des patients. Pour pouvoir soigner cette pathologie, il faut corriger cette erreur de perception. Certaines solutions ont été mise en place comme des sessions d'exposition face à un miroir lors de thérapie. Mais cela prend du temps car même face à un miroir, l'erreur de perception persiste et il faut donc recommencer cela régulièrement. L'utilisation de massage peut également aider ces personnes, mais il se peut que cette méthode les rende mal à l'aise dû à la nature de leur maladie.\\
+
+Il a déjà était montré que la réalité virtuelle peut aider à soigner les troubles du comportements alimentaire et les problèmes d'images du corps \cite{ri11}\cite{ri13}. \`{A} présent, les environnements virtuels peuvent provoquer des réponses émotionnelles et comportementales similaires à celles qui peuvent être provoquées par le monde réel. Cela permet également de fournir un environnement sûr où la personne peut avoir moins de réticence à interagir et également plus flexible permettant de créer des mises en situation plus facilement que dans la réalité.\\
+
+Avec la réalité virtuelle, on peut créer le sentiment qu'un corps virtuel est notre vrai corps, qu'il nous appartient, grâce à un phénomène connu sous le nom de sortie de corps en réalité virtuelle. Cette technique peut également permettre de changer la perception qu'une personne a de son corps grâce à l'apparence du corps virtuel.\\
+
+En utilisant la sortie de corps, on pourrait alors donner aux patients la sensation que le corps virtuel est leur vrai corps puis modifier en temps réel la silhouette de ce corps. Le patient choisira le corps virtuel (parmi plusieurs) dont l'apparence est la plus proche de ce qu'il perçoit comme son apparence puis, en même temps que le phénomène de sortie de corps est créé, on modifiera progressivement la silhouette du corps virtuel jusqu'à ce qu'elle soit proche de la véritable silhouette du patient.\\
+
+Pour pouvoir réaliser cela, il faudra d'abord être capable de pouvoir modifier l'apparence d'un modèle 3D de corps humain en temps réel. Il faudra également capturer les mouvements de l'utilisateur pour animer en temps réel le corps virtuel afin de ne pas "briser" l'effet de sortie de corps, voire même s'en servir pour créer cette effet.\\
+
+Dans une première partie, nous étudierons des travaux déjà réalisés sur l'anorexie mentale, la sortie de corps, la modification de modèle 3D et la capture de mouvement. Ensuite nous verrons en détails ce que nous proposons pour répondre à la problématique et comment nous l'avons réalisée. Puis nous verrons l'expérience mise en place pour tester notre travail. Pour finir, nous verrons les modifications qui pourraient être apportées.
+
+
+\include{Bibliographie}
+\include{Proposition}
+\include{Realisation}
+\include{Resultat}
+\newpage 
+\section{Conclusion et Perspectives}
+Dans ce rapport, nous avons cherché à proposer une nouvelle solution pour aider les personnes atteintes d'anorexie mentale. Pour cela, nous nous sommes intéressés au phénomène de sortie de corps en réalité virtuelle. L'illusion de sortie de corps permet de faire croire à une personne qu'un corps virtuel est son vrai corps, et a réussi, chez des personnes en bonne santé, à modifier la satisfaction qu'ils avaient de leur corps. De plus, les expériences menés sur l'illusion de la main en caoutchouc, reposant sur le même principe que celle de sortie de corps, ont montrés qu'elle fonctionnait très bien sur les patients atteints d'anorexie mentale. Nous avons pu voir que l'illusion se crée en mettant en place une corrélation entre ce qui se passe dans le monde réel et ce qui se passe dans le monde virtuel. Pour cette raison, la synchronisation entre ce qui se passe dans le réel et le virtuel est très important.\\
+
+Pour définir notre proposition afin d'aider les patients atteints d'anorexie mentale, nous nous somme inspirés des travaux sur la sortie de corps comme ceux permettant de créer l'illusion de sortie de corps grâce à une stimulation tactile sur le dos à la fois sur le sujet et sur l'avatar qui le représente dans le monde virtuel et celui permettant de changer la satisfaction du corps avec une sortie de corps partielle au niveau du ventre. Notre but est de changer la perception du corps entier et non pas d'une seule partie d'une corps donc nous voulons utiliser une illusion de sortie de corps complète et pour offrir plus de possibilité sur la modification du corps virtuel, nous proposons de réaliser tout cela dans un environnement complètement virtuel.\\
+
+Comme à terme, l'objectif est de permettre au psychiatre du CHU de Brest d'utiliser ce qui a été réalisé dans le traitement des personnes souffrants d'anorexie mentale, nous avons cherché a respecter la contrainte d'utiliser du matériel à bas coût et accessible au grand public. Nous avons donc choisi deux appareils avec un bon rapport prix/précision pour faire la capture de mouvement : la \emph{Kinect V2} pour capturer les mouvements de l'utilisateur et la \emph{Razer Hydra} pour capturer les mouvements du bâton.\\
+
+Afin de tester l'application réalisée, une méthode d'évaluation a été définie. Cette méthode a pour but de mesurer la présence et l'effet du phénomène de sortie de corps ainsi que l'effet de la modification du corps. Que ce soit lorsque la sortie de corps et la modification du corps ont lieu ensemble ou non.\\
+
+Dans la suite du stage, nous ferons passer les expériences en suivant la méthode mise en place pour voir le résultat obtenu avec cette application. Cette évaluation commencera d'abord en prenant pour sujet des personnes travaillant dans le laboratoire de recherche. Ceci nous permettra de mettre en évidence la présence de modifications à réaliser pour améliorer l'application et nous donnera un premier aperçu de l'effet sur la perception de son propre corps. Si les résultats sont positifs, avec l'aide des psychiatres du CHU de Brest, nous pourrons étendre ces expérience à certain de leurs patients atteints d'anorexie mentale.\\
+
+Actuellement, l'utilisateur choisit son avatar parmi une liste qui lui est proposée. Cette liste a pour but de proposer une large variété d'avatar a la corpulence différente mais leurs visages par exemple reste le même et il est impossible de proposé toute les corpulences possibles. L'une des possibilité serait donc de faire un scan 3D de la personne pour créer son avatar virtuel avec la \emph{Kinect V2} comme l'ont fait Cheng et al. \cite{ch15}. Une autre possibilité serait d'implémenter directement dans l'application une interface permettant de réaliser la même chose que \emph{MakeHuman}. Ainsi la première étape pour le patient sera de réaliser son avatar.
+
+ %La sortie de corps, qui consiste à faire croire à une personne qu'un corps virtuel est son vrai corps, pourrait aider efficacement à modifier la perception qu'ils ont de leurs corps. Cette illusion est basée sur le même principe que celle de la main en caoutchouc et comme cette dernière s'est montrée efficace sur les personnes atteintes d'anorexie mentale, on peut en déduire que la sortie de corps est réalisable sur les patients et qu'elle pourrait même être particulièrement efficace.
+\newpage 
+\input{Reference}
+%\bibliographystyle{plain}
+%\bibliography{Reference}
+\include{Annexe}
+%\chapter{Doc}
+\end{document}
