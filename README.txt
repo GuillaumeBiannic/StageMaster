@@ -7,8 +7,8 @@ Razer Hydra
 Oculus Rift DK2
 
 Logiciels requis : 
-Microsoft Kinect V2 : 
-Oculus Rift : 
+Microsoft Kinect V2 : https://www.microsoft.com/en-us/download/details.aspx?id=44561
+Oculus Rift : https://developer.oculus.com/downloads/pc/0.6.0.1-beta/Oculus_Runtime_for_Windows/
 
 ProjetSortieDeCorps : 
 Contient les sources du projet Unity (réalisé avec Unity Version 5.0.0f4).
@@ -19,6 +19,7 @@ et la soutenance de stage en version PowerPoint et PDF (Les versions PDF ne perm
 de voir les animations et les vidéos des présentations).
 
 Applications :
+Les applications sont téléchargeables à cette adresse : https://www.dropbox.com/s/rp6cffkg9wjpbpc/Applications.zip?dl=0
 Contient les différentes applications créées et utilisés pendant le stage. 
 Menu Homme et Femme pour que l'utilisateur et l'expérimentateur puisse choisir un avatar
 Homme ou Femme.
