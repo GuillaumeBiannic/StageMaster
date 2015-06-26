@@ -36,9 +36,9 @@ public class LoadScene : MonoBehaviour {
 		PlayerPrefs.SetInt ("Condition", 0);
 		PlayerPrefs.SetInt ("Sujet", PlayerPrefs.GetInt("Sujet",-1) + 1);
 		//Application.LoadLevel (1);
-		Process foo = new Process();
+		/*Process foo = new Process();
 		foo.StartInfo.FileName = "evalApp_DirectToRift.exe";
-		foo.Start ();
+		foo.Start ();*/
 		Application.Quit ();
 	}
 }

@@ -37,9 +37,9 @@ public class LoadSceneH : MonoBehaviour {
 		PlayerPrefs.SetInt ("Sujet", PlayerPrefs.GetInt("Sujet",-1) + 1);
 		UnityEngine.Debug.Log (model);
 		//Application.LoadLevel (1);
-		Process foo = new Process();
+		/*Process foo = new Process();
 		foo.StartInfo.FileName = "evalApp_DirectToRift.exe";
-		foo.Start ();
+		foo.Start ();*/
 		Application.Quit ();
 	}
 }
